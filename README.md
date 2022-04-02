@@ -56,12 +56,15 @@ Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - 
  Images:
 
 Wiring in Progress
-<img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="150">
-
-Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.
-<img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="150">
 
 
+
+
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="250">  |
+| :------------: |
+| Wiring in Progress  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="150">  |
+| Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.  |
 
 
 ###End
