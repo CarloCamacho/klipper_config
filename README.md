@@ -1,7 +1,7 @@
-Welcome to 3D Printer configuration repo. 
+Welcome to my 3D Printer configuration repo. 
 
 
-| <img src="https://www.creality3dofficial.com/img/logo/logo-theme.png" width="150">| <img src="https://www.klipper3d.org/img/klipper-logo.png" width="150">  | <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" width="150">   |  <img src="https://avatars.githubusercontent.com/u/38851044?v=4" width="150">
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/creality.png" width="150">| <img src="https://www.klipper3d.org/img/klipper-logo.png" width="150">  | <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" width="150">   |  <img src="https://avatars.githubusercontent.com/u/38851044?v=4" width="150">
 | :------------:| :------------: | :------------: | :------------: |
 | [Creality CR-10v3](https://www.creality3dofficial.com/products/creality-cr-10-v3-3d-printer-with-genuine-e3d-direct-drive-extruder-2020-latest-version "Creality CR-10v3")| [Klipper](https://www.klipper3d.org "Klipper")  | [Mainsail](https://docs.mainsail.xyz/ "Mainsail")  | [SKR Mini E3 v3](https://www.biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3 "SKR Mini E3 v3")  |
 
@@ -11,18 +11,19 @@ The Creality CR-10v3 is a great base to build on while getting to know the elect
 
 Above are the main hardware and software components I am working with and have basic functionality working. 
 
-I am in the process of doing a control box delete on this CR10 which means I am running the board, power and wiring off the bench currently until I confirmed everything is working.
+The CR-10 had an external control box that housed the PSU, control board and LCD, with cables running to small breakout boards on the printer itself.
+I've found the small breakboards to be a bit flakey when adjusting wiring, etc so I am in the process of doing a control box delete which means I am running the board, power and wiring off the bench currently until I confirmed everything is working.  
 
 I am running klipper on a Raspberry Pi 4 Model B 4GB which is sharing its duties with a few other functions around the house including:
 - HomeAssistant
 - PiHole
 - OctoPrint (now disabled)
 
-So far memory usage and CPU are handling it all fine, but I have a spare Pi3 handy if I need to move it off. 
+So far memory usage and CPU are handling it all fine, but I have a spare Pi3 handy if I need to move any apps off. 
 
 The main consideration with the other services running on the PI is the ports for all the web interfaces. A summary is below for my record and failing memory...
 
-| Fluidd  | Port  |
+| Application  | Port  |
 | :------------: | :------------: |
 | Fluidd  | 8111  |
 | Mainsail  | 8222  |
@@ -35,7 +36,7 @@ Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - 
 
 ## General Notes so far:
 - I used the sample config from Klipper GitHub for the SKR
-- The config checker page in the doco was awesome
+- The config checker page in the doco was a great help
 - I had to change the direction of the Extruder stepper motor
 - All motion and control seems to be working great! 
 
@@ -53,10 +54,13 @@ Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - 
  - Rewire hotend to remove reliance on daughterboard...
 
 
- 
+## Images:
+
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="450">  |
+| :------------: |
+| Wiring in Progress  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="450">  |
+| Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.  |
 
 
-
-
-
-###End
+### End
