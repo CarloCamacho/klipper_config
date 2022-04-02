@@ -1,7 +1,7 @@
 Welcome to 3D Printer configuration repo. 
 
 
-| <img src="https://www.creality3dofficial.com/img/logo/logo-theme.png" width="150">| <img src="https://www.klipper3d.org/img/klipper-logo.png" width="150">  | <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" width="150">   |  <img src="https://avatars.githubusercontent.com/u/38851044?v=4" width="150">
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/creality.png" width="150">| <img src="https://www.klipper3d.org/img/klipper-logo.png" width="150">  | <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" width="150">   |  <img src="https://avatars.githubusercontent.com/u/38851044?v=4" width="150">
 | :------------:| :------------: | :------------: | :------------: |
 | [Creality CR-10v3](https://www.creality3dofficial.com/products/creality-cr-10-v3-3d-printer-with-genuine-e3d-direct-drive-extruder-2020-latest-version "Creality CR-10v3")| [Klipper](https://www.klipper3d.org "Klipper")  | [Mainsail](https://docs.mainsail.xyz/ "Mainsail")  | [SKR Mini E3 v3](https://www.biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3 "SKR Mini E3 v3")  |
 
@@ -53,8 +53,13 @@ Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - 
  - Rewire hotend to remove reliance on daughterboard...
 
 
- 
+ Images:
 
+Wiring in Progress
+<img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="150">
+
+Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.
+<img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="150">
 
 
 
