@@ -41,10 +41,10 @@ Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - 
 - All motion and control seems to be working great! 
 
 ## Next Steps:
-- Wiring - make the PSU safe...
-- Bed levelling / Bed Mesh
-- Do an actual test print
-- Mounting PSU / SKR / Pi somewhere
+- ~~Wiring - make the PSU safe...
+- ~~Bed levelling / Bed Mesh
+- ~~Do an actual test print
+- ~~Mounting PSU~~ / SKR / Pi somewhere
  - ~~Print PSU holder~~
  - Print mount for the rest. Possibly on the Skadis?
 - Hotend changes
