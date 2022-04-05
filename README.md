@@ -1,9 +1,9 @@
 Welcome to my 3D Printer configuration repo. 
 
 
-| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/creality.png" width="150">| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/klipper-logo.png" width="150">  | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/mainsail.png" width="150">   |  <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/fluidd.PNG" width="150"> | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/btt.jpg" width="150"> | 
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/creality.png" width="150">| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/klipper-logo.png" width="150">  | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/mainsail.png" width="150">   |  <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/fluidd.PNG" width="150"> | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BTT.jpg" width="150"> | 
 | :------------:| :------------: | :------------: | :------------: | :------------: |
-| [Creality CR-10v3](https://www.creality3dofficial.com/products/creality-cr-10-v3-3d-printer-with-genuine-e3d-direct-drive-extruder-2020-latest-version "Creality CR-10v3")| [Klipper](https://www.klipper3d.org "Klipper")  | [Mainsail](https://docs.mainsail.xyz/ "Mainsail")  | [Fluidd](https://docs.fluidd.xyz/) "Fluidd" | [SKR Mini E3 v3](https://www.biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3 "SKR Mini E3 v3")  |
+| [Creality CR-10v3](https://www.creality3dofficial.com/products/creality-cr-10-v3-3d-printer-with-genuine-e3d-direct-drive-extruder-2020-latest-version "Creality CR-10v3")| [Klipper](https://www.klipper3d.org "Klipper")  | [Mainsail](https://docs.mainsail.xyz/ "Mainsail")  | [Fluidd](https://docs.fluidd.xyz/) | [SKR Mini E3 v3](https://www.biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3 "SKR Mini E3 v3")  |
 
 ## Please note, this is a work in progress! 
 
@@ -58,13 +58,13 @@ YMMV
 
 ## Images:
 
-| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/controlbox.jpg" width="450">  |
 | Almost the original system with the control box visible. |
 | :------------: |
-| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="450">  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/controlbox.jpg" width="450">  |
 | Wiring in Progress  |
-| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="450">  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="450">  |
 | Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="450">  |
 
 
 ### End
