@@ -1,9 +1,9 @@
 Welcome to my 3D Printer configuration repo. 
 
 
-| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/creality.png" width="150">| <img src="https://www.klipper3d.org/img/klipper-logo.png" width="150">  | <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" width="150">   |  <img src="https://avatars.githubusercontent.com/u/38851044?v=4" width="150">
-| :------------:| :------------: | :------------: | :------------: |
-| [Creality CR-10v3](https://www.creality3dofficial.com/products/creality-cr-10-v3-3d-printer-with-genuine-e3d-direct-drive-extruder-2020-latest-version "Creality CR-10v3")| [Klipper](https://www.klipper3d.org "Klipper")  | [Mainsail](https://docs.mainsail.xyz/ "Mainsail")  | [SKR Mini E3 v3](https://www.biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3 "SKR Mini E3 v3")  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/creality.png" width="150">| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/klipper-logo.png" width="150">  | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/mainsail.png" width="150">   |  <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/fluidd.PNG" width="150"> | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/btt.jpg" width="150"> | 
+| :------------:| :------------: | :------------: | :------------: | :------------: |
+| [Creality CR-10v3](https://www.creality3dofficial.com/products/creality-cr-10-v3-3d-printer-with-genuine-e3d-direct-drive-extruder-2020-latest-version "Creality CR-10v3")| [Klipper](https://www.klipper3d.org "Klipper")  | [Mainsail](https://docs.mainsail.xyz/ "Mainsail")  | [Fluidd](https://docs.fluidd.xyz/) "Fluidd" | [SKR Mini E3 v3](https://www.biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3 "SKR Mini E3 v3")  |
 
 ## Please note, this is a work in progress! 
 
@@ -32,7 +32,8 @@ The main consideration with the other services running on the PI is the ports fo
 | HomeAssistant  | 8213  |
 | PiHole  | 80  |
 
-Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - I am finding Mainsail to be my go to interface.  YMMV
+Note: I have listed Fluidd, Mainsail and OctoPrint above, though I am finding Fluidd to be my go to interface so far.  
+YMMV
 
 ## General Notes so far:
 - I used the sample config from Klipper GitHub for the SKR
@@ -46,18 +47,21 @@ Note: I have listed Fluidd and OctoPrint above, but it was mostly for testing - 
 - ~~Do an actual test print~~
 - ~~Mounting PSU~~ / SKR / Pi somewhere
  - ~~Print PSU holder~~
- - Print mount for the rest. Possibly on the Skadis?
+ - Print mount/case for the rest. Possibly on the Skadis?
 - Hotend changes
  - Print new mount for extruder (HeroMe Gen6)
  - Install LDO Orbitor 2.0
  - Install replacement heater cartridge & thermistor
  - Rewire hotend to remove reliance on daughterboard...
+ - Cable management
 
 
 ## Images:
 
-| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="450">  |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/controlbox.jpg" width="450">  |
+| Almost the original system with the control box visible. |
 | :------------: |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="450">  |
 | Wiring in Progress  |
 | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="450">  |
 | Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.  |
