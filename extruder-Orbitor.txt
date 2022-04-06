@@ -1,0 +1,30 @@
+[extruder] 
+step_pin: PB3
+dir_pin: PB4
+enable_pin: !PD1
+microsteps: 16
+full_steps_per_rotation: 200
+rotation_distance: 4.637
+nozzle_diameter: 0.4
+filament_diameter: 1.750
+max_extrude_only_distance: 500
+max_extrude_only_velocity: 120
+heater_pin: PC8
+sensor_type: EPCOS 100K B57560G104F
+sensor_pin: PA0
+min_temp: 0
+max_temp: 250
+
+
+[tmc2209 extruder] 
+uart_pin: PC11
+tx_pin: PC10
+interpolate: true
+run_current: 0.85 
+hold_current: 0.100
+sense_resistor: 0.11 
+stealthchop_threshold: 0
+driver_TBL: 0
+driver_HEND: 6
+driver_HSTRT: 7
+driver_TOFF: 4

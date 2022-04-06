@@ -1,0 +1,23 @@
+# Needed to swap direction of extruder motor
+[extruder]
+step_pin: PB3
+dir_pin: PB4
+enable_pin: !PD1
+microsteps: 16
+rotation_distance: 24.439
+# full_steps_per_rotation: 200
+gear_ratio: 50:17
+nozzle_diameter: 0.400
+filament_diameter: 1.750
+heater_pin: PC8
+sensor_type: EPCOS 100K B57560G104F
+sensor_pin: PA0
+min_temp: 0
+max_temp: 250
+
+[tmc2209 extruder]
+uart_pin: PC11
+tx_pin: PC10
+uart_address: 3
+run_current: 0.650
+#stealthchop_threshold: 999999
