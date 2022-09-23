@@ -49,13 +49,14 @@ I am also running the fantastic [Kiauh](https://github.com/th33xitus/kiauh) scri
 - I've removed the control box completely and run everything directly to the BTT board with no screen. (I use Fluidd for everything)
 The mount and placement of the PSU mimics the Ender 3 approach which works well. (See last image)
 - I've mounted the SKR on a board on the side for easy access to cables - its not the neatest, but its worked well, particularly when testing different parts and configurations.
-- The BL-tocuh is mounted and working well too. 
+- The BL-touch is mounted and working well too. 
 - I ended up mounting the bearing based spool holder on the Skadis pegboard. 
+I've found this to be a great way to feed the orbitor which i'm feeding via the PTFE tubing to the top of the frame. 
 
 - All up i'm really happy with the Orbitor and Dragon hotend combo, its been able to print everything that i've thrown at it well.
-- The last part i'm going to look to change on this printer will likely be the bed material.
-- The glass is ok, great in fact, for PLA... but PETG and others I end up using glue and painters tape. 
-- I'll likely get a PEI based sheet I can switch out.
+The last part i'm going to look to change on this printer will likely be the bed material.
+The glass is ok, great in fact, for PLA... but PETG and others I end up using glue and painters tape. 
+I'll likely get a PEI based sheet I can switch out.
 
 ## Tips:
 - Get yourself some good tools if you plan to do a lot of work on a 3D Printer 
