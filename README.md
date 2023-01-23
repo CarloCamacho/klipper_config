@@ -16,44 +16,53 @@ I've found the small breakboards to be a bit flakey when adjusting wiring, etc s
 
 I am running klipper on a Raspberry Pi 4 Model B 4GB which is sharing its duties with a few other functions around the house including:
 - HomeAssistant
-- PiHole
-- OctoPrint (now disabled)
+- Zigbee2Mqtt
 
-So far memory usage and CPU are handling it all fine, but I have a spare Pi3 handy if I need to move any apps off. 
+I ended up going with the Fluiddpi image as I found it the simplest to get up and running with any extra bloat. 
 
-The main consideration with the other services running on the PI is the ports for all the web interfaces. A summary is below for my record and failing memory...
-
-| Application  | Port  |
-| :------------: | :------------: |
-| Fluidd  | 8111  |
-| Mainsail  | 8222  |
-| Moonraker  | 7125  |
-| OctoPrint |  5001  |
-| HomeAssistant  | 8213  |
-| PiHole  | 80  |
-
-Note: I have listed Fluidd, Mainsail and OctoPrint above, though I am finding Fluidd to be my go to interface so far.  
-YMMV
+I am also running the fantastic [Kiauh](https://github.com/th33xitus/kiauh) scripts to keep everything up-to-date.  It's been perfect for installing and testing the different interfaces. 
 
 ## General Notes so far:
-- I used the sample config from Klipper GitHub for the SKR
+- I used the sample config from Klipper GitHub for the SKR and it worked well out the box
 - The config checker page in the doco was a great help
-- I had to change the direction of the Extruder stepper motor
+- I had to change the direction of the Extruder stepper motor initially
 - All motion and control seems to be working great! 
 
 ## Next Steps:
 - ~~Wiring - make the PSU safe...~~
 - ~~Bed levelling / Bed Mesh~~
 - ~~Do an actual test print~~
-- ~~Mounting PSU~~ / SKR / Pi somewhere
+- ~~Mounting PSU / SKR / Pi somewhere~~
  - ~~Print PSU holder~~
- - Print mount/case for the rest. Possibly on the Skadis?
+ - ~~Print mount/case for the rest. Possibly on the Skadis?~~
 - Hotend changes
- - Print new mount for extruder (HeroMe Gen6)
- - Install LDO Orbitor 2.0
- - Install replacement heater cartridge & thermistor
- - Rewire hotend to remove reliance on daughterboard...
- - Cable management
+ - ~~Print new mount for extruder (HeroMe Gen6)~~
+ - ~~Install LDO Orbitor 2.0~~
+ - ~~Install replacement heater cartridge & thermistor~~
+ - ~~Install BL-Touch~~
+ - ~~Rewire hotend to remove reliance on daughterboard...~~
+ - ~~Cable management~~
+
+
+## Update - August 2022
+- Alright, so i've got through the list above and everything basically went to plan. 
+- I've removed the control box completely and run everything directly to the BTT board with no screen. (I use Fluidd for everything)
+The mount and placement of the PSU mimics the Ender 3 approach which works well. (See last image)
+- I've mounted the SKR on a board on the side for easy access to cables - its not the neatest, but its worked well, particularly when testing different parts and configurations.
+- The BL-touch is mounted and working well too. 
+- I ended up mounting the bearing based spool holder on the Skadis pegboard. 
+I've found this to be a great way to feed the orbitor which i'm feeding via the PTFE tubing to the top of the frame. 
+
+- All up i'm really happy with the Orbitor and Dragon hotend combo, its been able to print everything that i've thrown at it well.
+The last part i'm going to look to change on this printer will likely be the bed material.
+The glass is ok, great in fact, for PLA... but PETG and others I end up using glue and painters tape. 
+I'll likely get a PEI based sheet I can switch out.
+
+## Tips:
+- Get yourself some good tools if you plan to do a lot of work on a 3D Printer 
+- eg. various crimpers, wire strippers, and hex drivers are a must 
+- The HeroMe mount system is fantastic - highly recommend joining the Patreon to get the latest designs and guides if you aren't doing anything with linear rails.  
+- Ikea Skadis peg boards are just awesome to have close for those tools you bought...
 
 
 ## Images:
@@ -65,6 +74,8 @@ YMMV
 | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/wiring.jpg" width="450">  |
 | Starting Hotend - Phaetus Dragon HiFlow w/ BMG clone extruder.   HeroMe Gen5 mount.  |
 | <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/BMGHotend.jpg" width="450">  |
+| Final form - Phaetus Dragon HiFlow w/ LDO Orbitor 2.0.   HeroMe Gen6 mount.    |
+| <img src="https://github.com/CarloCamacho/klipper_config/blob/master/images/orbitor.jpg" width="450">  |
 
 
 ### End
